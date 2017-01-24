@@ -1,0 +1,159 @@
+
+table,  tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+ol, ul {
+list-style:none;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+caption, th, td {
+text-align:left;
+font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}
+.features-table .leftRow {
+    text-align: left;
+    font-size: 120%;
+    width: 14em;
+    padding: 10px;
+}
+.features-table
+{
+  table-layout:fixed;
+  width: 99.99%; 
+  color: white;
+  letter-spacing: 2;
+  background: transparent; 
+  display: block;
+  border: 1px solid white;  
+  border-top: 0px;
+}
+.tableScroll {
+  position: relative;
+  display: block;
+  width: 99.9%;
+}
+
+.features-table  tr 
+{
+  width: 10%;
+    word-wrap:  break-word;
+}
+ 
+.features-table td
+{
+  height: 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  text-align: center;
+  vertical-align: middle;
+    word-wrap:break-word;
+    word-wrap:  break-word;
+  width: 15%;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.features-table tbody td
+{
+  text-align: center; 
+    word-wrap:  break-word;
+}
+ 
+.features-table td:nowrap
+{
+  white-space: nowrap;
+    word-wrap:  break-word;
+}
+ 
+.features-table thead td
+{
+  font-size: 120%; 
+  font-weight: bold;
+  border-top: none;
+}
+ 
+.features-table tfoot td
+{
+  font-size: 120%; 
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+    word-wrap:  break-word;
+}
+.serviceAdditional {
+  font-color: white;
+  font-size: 1em;
+}
+
+.active {
+  background: black;
+  color: white;
+}
+.mainService > img {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+.serviceAdditional, 
+.serviceAdditional > p
+.serviceAdditional > h3  {
+  color: white;
+  padding: 0px 20px;
+  letter-spacing: 2;
+  line-height: 24px;
+}
+.serviceAdditionalStar {
+  font-size:  0.8em;
+  padding: 20px;
+  color: white;
+  letter-spacing: 2;
+}
+
+nav {
+  padding: 14px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav {
+  background: white;
+}
+
+.link {
+  transition: 0.4s;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link:hover, .active {
+  background-color: black;
+  color: white;
+  padding: 24px 10px;
+}
+.typeOfPhoto {
+    color: white;
+    letter-spacing: 7px;
+    text-align:center;
+}

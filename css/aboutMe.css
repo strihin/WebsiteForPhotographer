@@ -1,0 +1,32 @@
+
+body {
+    overflow-y: auto;
+    background-size: cover;
+}
+.mainAboutMe {   
+    font-size: 1em;   
+    color: #fff;
+    letter-spacing: 1.6;
+    border: 0px;   
+    line-height: 2em;
+}
+
+.main h4  {
+    color:#fff;
+    font-weight: 900;
+    letter-spacing: 2.3;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1.4em auto;
+    margin-bottom: 2.4em;
+}
+.main  div > img {
+        width: 400px;   
+        display: inline-block;       
+        margin:0 20px 20px 0;   
+        float: left;
+}
+.mainAboutMe p {
+    text-align: justify;
+    padding-right: 20px;
+}

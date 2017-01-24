@@ -1,0 +1,31 @@
+.lens {
+        position: absolute;
+        left: 94%;
+        width: 50px;
+        height: 50px;
+    }
+     header .leftside {
+            padding: 0px 20px 0 0;
+        }
+    header #camera {
+        z-index: 999;
+        left: 1.2em;
+        top: 1.2em;
+    }
+    .footer img {
+        bottom: 14px;
+    }
+
+    @media screen and (max-width: 1361px) and (min-width: 970px)
+    {
+        header #camera {
+            left:0px;
+        }
+
+       
+         header #camera {
+            z-index: 999;
+            left: 1.2em;
+            top: 1.2em;
+        }
+    }

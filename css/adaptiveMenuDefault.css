@@ -1,0 +1,17 @@
+.adaptiveMenu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.adaptiveMenu a:hover {
+	color: #fff;
+}
+.adaptiveMenu p {
+	font-weight: 300;
+	font-size: 3em;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	line-height: 1.5;
+}
+
